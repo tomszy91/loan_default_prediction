@@ -62,3 +62,7 @@ loan_default_prediction/
     ```bash
     jupyter notebook loan_default_prediction.ipynb
     ```
+
+## Executive summary
+
+The dataset contains 255k borrowers with an 11.6% default rate. Default risk is higher among younger, lower-income, and part-time or unemployed borrowers, while married and highly educated individuals are more stable. Loan size does not strongly correlate with defaults, and most financial and behavioral indicators add little predictive value. Overall, age and income are the main drivers, but separation between defaulters and non-defaulters is limited, likely due to portfolio pre-selection or data preprocessing.
