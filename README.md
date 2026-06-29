@@ -60,7 +60,11 @@ loan_default_prediction/
 3. Launch the analysis:
 
     ```bash
-    jupyter notebook loan_default_prediction.ipynb
+    # Recommended approach (works on all systems)
+    python -m notebook loan_default_prediction.ipynb
+    
+    # Alternative (if jupyter is in your PATH)
+    jupyter-notebook loan_default_prediction.ipynb
     ```
 
 ## Executive summary
